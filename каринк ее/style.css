@@ -1,0 +1,14 @@
+.gallery{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 30px;
+   background-color: rgba(113, 8, 211, 0.747);
+}
+.gallery img{
+    width: calc(33% - 20px);
+    height: auto;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 45px;
+}
